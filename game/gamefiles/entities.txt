@@ -1,0 +1,12 @@
+This file contains entities that are in the game. Entity types are monster and npc. Entities have name and location. 
+Monster has additional attributes damage and hp that tells how much potential damage and how much starting hp it has. 
+Entities are formatted as follows # type name x y grid name, plus additional attributes separated also with '/', definiton ends with #.
+If attributes are incorrect entity is not added, if format is corrupted then executing results in error. 
+
+# monster goblin1 50 12 lumbu 7 100 #
+
+# monster goblin2 8 15 lumbu 100 1337 #
+
+# npc npc1 40 17 lumbu #
+
+# monster goblin3 8 51 lumbu 7 100 #
